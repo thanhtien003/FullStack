@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReactJS</title>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+</head>
+
+<body>
+    <!-- 
+        1. React.createElement() -> Reat Element
+        2. So sánh với document.createElement() -> DOM Element
+        3. Thay đổi: id, className, style
+        4. Thêm text , HTML
+        5. Tạo:
+            <h1 title="Hello" class = "heading" > Hello gúy</h1>
+        6. Tạo:
+            <ul>
+                <li>JavaScript 1</li>
+                <li>PHP 1</li>
+                <p>Text Paragram</p>
+            </ul>
+        7 Tạo:
+            <div class="post-item">
+                <h2 title="Học React taikj F8"> Học ReactJS F8</h2>
+                <p> Học từ cơ bản tới nâng cao</p>
+            </div>
+    -->
+    <script>
+        // 5
+        // DOM
+        const h1DOM = document.createElement('h1')
+
+        h1DOM.title = 'Hello'
+        h1DOM.className = 'heading'
+        h1DOM.innerText = 'Hello guys'
+        document.body.appendChild(h1DOM)
+        console.dir(h1DOM);
+
+        // React
+        // React.createElement(type, props, children,n children)
+        const h1React = React.createElement('h1', { title: 'Hello', className: 'heading' }, 'Hello guys')
+        // React.render(h1React,document.getElementById('root'))
+        console.log(h1React);
+
+        // 6
+        // DOM
+        const ulDOM = document.createElement('ul')
+        ulDOM.id = 'idDOM'
+        const liDOM1 = document.createElement('li')
+        liDOM1.innerText = 'JavaScript'
+        const liDOM2 = document.createElement('li')
+        liDOM2.innerText = 'PHP'
+        ulDOM.appendChild(liDOM1)
+        ulDOM.appendChild(liDOM2)
+        document.body.appendChild(ulDOM)
+        // React
+        const ulReact = React.createElement('ul', {id:'ul-id',style:'color: red; font-size:100px'},
+            React.createElement('li', null, 'JavaScript'),
+            React.createElement('li', null, 'PHP')
+        )
+        console.log(ulReact);
+    </script>
+</body>
+
+</html>
