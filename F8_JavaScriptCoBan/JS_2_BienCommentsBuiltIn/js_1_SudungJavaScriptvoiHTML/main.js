@@ -1,0 +1,1 @@
+alert("Xin Chao JavaScript basic")

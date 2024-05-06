@@ -1,0 +1,69 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "name": "Kiến Thức Nhập Môn IT",
+      "description": "Để có cái nhìn tổng quan về ngành IT - Lập trình web các bạn nên xem các videos tại khóa này trước nhé."
+    },
+    {
+      "id": "2",
+      "name": "Node & ExpressJS2",
+      "description": "1Học Back-end với Node & ExpressJS framework, hiểu các khái niệm khi làm Back-end và xây dựng RESTful API cho trang web."
+    },
+    {
+      "id": "2",
+      "name": "Node & ExpressJS2",
+      "description": "1Học Back-end với Node & ExpressJS framework, hiểu các khái niệm khi làm Back-end và xây dựng RESTful API cho trang web."
+    },
+    {
+      "id": "2",
+      "name": "Node & ExpressJS2",
+      "description": "1Học Back-end với Node & ExpressJS framework, hiểu các khái niệm khi làm Back-end và xây dựng RESTful API cho trang web."
+    },
+    {
+      "id": "3",
+      "name": "Node & ExpressJS2",
+      "description": "1Học Back-end với Node & ExpressJS framework, hiểu các khái niệm khi làm Back-end và xây dựng RESTful API cho trang web."
+    },
+    {
+      "id": "3e8d",
+      "name": "ád",
+      "description": "asx"
+    },
+    {
+      "id": "cad4",
+      "name": "fghjkl",
+      "description": "fghjkl;"
+    },
+    {
+      "id": "21f0",
+      "name": "dfghjk",
+      "description": "fghjkl"
+    },
+    {
+      "id": "8e7f",
+      "name": "thjgj",
+      "description": "khjkh"
+    },
+    {
+      "id": "2eed",
+      "name": "dfghjklmgfghjkl,mnb",
+      "description": "dfghjkmnfgh"
+    },
+    {
+      "id": "3",
+      "name": "Node & ExpressJS2",
+      "description": "1Học Back-end với Node & ExpressJS framework, hiểu các khái niệm khi làm Back-end và xây dựng RESTful API cho trang web."
+    },
+    {
+      "id": "3",
+      "name": "Node & ExpressJS2",
+      "description": "1Học Back-end với Node & ExpressJS framework, hiểu các khái niệm khi làm Back-end và xây dựng RESTful API cho trang web."
+    },
+    {
+      "id": "3",
+      "name": "Node & ExpressJS2",
+      "description": "1Học Back-end với Node & ExpressJS framework, hiểu các khái niệm khi làm Back-end và xây dựng RESTful API cho trang web."
+    }
+  ]
+}
