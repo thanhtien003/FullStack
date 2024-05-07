@@ -28,7 +28,7 @@ class Course {
     }
 }
 const phpCourse = new Course('Php', 1000)
-const jsCourse = new Course('JavaScript', 1000)
+const jsCourse = new Course('JavaScript', 1200)
 console.log(phpCourse);
 console.log(jsCourse);
 // 6. Default parameters values

@@ -2,7 +2,7 @@
 // 2. Template Literals
 const name = 'Javascript'
 const description = 'code Name: ' + name;
-const description1 = `Course\n name:\\ \${name}`;
+const description1 = `Course\n name:\\ \${name} ${description}`;
 console.log(description);
 console.log(description1);
 // 3. Multi-line String(Viết nhiều dòng)

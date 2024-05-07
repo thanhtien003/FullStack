@@ -5,12 +5,13 @@
 //      ++ Code block: if else, loop, {},...
 //      ++ Code thuần : Var
 //      ++ Bable : Const , let
-//      ++ Const : Khi định nghĩa biến và không gán lại biến đó
-//      ++ Let : Khi cần gán lại giá trị cho biến
+//      ++ Const : Khi định nghĩa biến và không gán lại biến đó dùng Const
+//      ++ Let : Khi cần gán lại giá trị cho biến dùng Let
 {
     var code = "Javascript"
 }
 console.log(code);
+
 {
     let code1 = "Javascript"
 }

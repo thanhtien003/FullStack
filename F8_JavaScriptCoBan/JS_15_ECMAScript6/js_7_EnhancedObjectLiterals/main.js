@@ -20,6 +20,7 @@ var courses = {
     price
 }
 console.log(courses);
+
 //      ++ Định nghĩa methor cho Object
 var name = 'JavaScript'
 var price = 1000
@@ -32,8 +33,9 @@ var courses1 = {
     }
 }
 console.log(courses1.getName());
+
 //      ++ Định nghĩa key cho object dưới dạng biến
-var fieldName ='Name'
+var fieldName ='new-name'
 var fieldPrice = 'Price'
 const courses2= {
     [fieldName]: 'Javascript',

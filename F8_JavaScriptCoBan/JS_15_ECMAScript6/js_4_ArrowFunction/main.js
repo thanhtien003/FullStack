@@ -1,14 +1,17 @@
 /* ==========<<<<< ECMA Script 6 2015 >>>>>========== */
-// 4. Arrow Functions
-
+// 4. Arrow Functions: hàm mũi tên
+// EX
 function logger(logg) {
     console.log(logg);
 }
 logger('MessageLogger');
 ///////////////////////////////////
-const logger1 = (logg) => console.log(logg);
+const logger1 = (a,b) => ({
+    a: a,
+    b: b
+});
 
-logger1('MessageLogger');
+console.log(logger1(2, 2));;
 
 
 // 6. Default parameters values
